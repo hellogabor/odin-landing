@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header-container, .atf, .info, .quote {
+.header-container, .atf, .info, .quote, .cta2 {
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -147,4 +147,30 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     color:#1F2937
+}
+
+.ctacontainer {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-items: center;
+}
+
+/* .ctacontainer .cta {
+
+} */
+
+.ctacontainer button { 
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 5px 20px;
+    margin-top: 10px;
+    transition: background-color 0.1s ease;
 }

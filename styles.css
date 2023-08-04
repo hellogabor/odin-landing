@@ -1,9 +1,14 @@
+* {
+    margin: 0px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-#content {
-    /* margin: auto; */
+.header-container, .atf, .info {
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #content img {
@@ -17,6 +22,7 @@ body {
 #header {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 #header .links {
@@ -30,15 +36,17 @@ body {
 
 
 #header .links .item {
-    margin: auto 10px auto 10px;
-    color: #E5E7EB; 
+    margin: auto 5px auto 5px;
+    color: #9A9CA2; 
     font-size: 18px;
 }
 
 .atf {
     display: flex;
     justify-content: space-between;
-    margin: 80px auto 80px auto;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #1F2937;
 }
 
@@ -49,15 +57,70 @@ body {
     color: #F9FAF8;
 }
 
-.atf p {
-    color: #E5E7EB; 
+.atf p, .icons .item {
+    color: #9A9CA2; 
     font-size: 18px;
 }
 
 .atf button {
-
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    transition: background-color 0.1s ease;
 }
+
+.atf button:hover {
+    background-color: #3da8ff;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+.atf button:active {
+    transition: none;
+    background-color: #F9FAF8;
+    font-size: 18px;
+    color: #3882F6;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
 
 .atf .heroimg {
     /* max-width: 100%; */
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+.icons img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 50px;
+}
+
+.icons .item {
+    width: 150px;
+    text-align: center;
 }

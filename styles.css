@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#content {
+    /* margin: auto; */
+}
+
+#content img {
+    max-width: 100%;
+}
+
+.header-container {
+    background-color: #1F2937;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .links {
+    display: flex;
+}
+
+#header .logo {
+    font-size: 24px;
+    color: #F9FAF8; 
+}
+
+
+#header .links .item {
+    margin: auto 10px auto 10px;
+    color: #E5E7EB; 
+    font-size: 18px;
+}
+
+.atf {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto 80px auto;
+    background-color: #1F2937;
+}
+
+.atf h1 {
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.atf p {
+    color: #E5E7EB; 
+    font-size: 18px;
+}
+
+.atf button {
+
+}
+
+.atf .heroimg {
+    /* max-width: 100%; */
+}

@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header-container, .atf, .info, .quote, .cta2 {
+.header-container, .atf, .info, .quote, .cta2, #footer {
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -161,7 +161,6 @@ h2 {
 }
 
 /* .ctacontainer .cta {
-
 } */
 
 .ctacontainer button { 
@@ -173,4 +172,12 @@ h2 {
     padding: 5px 20px;
     margin-top: 10px;
     transition: background-color 0.1s ease;
+}
+
+#footer {
+    background-color: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #9A9CA2;
 }

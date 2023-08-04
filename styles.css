@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header-container, .atf, .info {
+.header-container, .atf, .info, .quote {
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -123,4 +123,28 @@ h2 {
 .icons .item {
     width: 150px;
     text-align: center;
+}
+
+.quote {
+    background-color: #9A9CA2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quotetext, .signature {
+    padding: 0 150px;
+}
+
+.quotetext {
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.signature {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color:#1F2937
 }
